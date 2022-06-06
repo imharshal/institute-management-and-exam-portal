@@ -1,0 +1,16 @@
+.franchise {
+    width:100%; height:600px; border:none;padding:0px;
+    margin:0px;
+  }
+  @media only screen and (max-width: 600px) {
+  .franchise {
+    height:300px;
+  }
+  @media only screen and (max-width: 300px) {
+    .franchise {
+      height:200px;
+    }
+}
+
+
+

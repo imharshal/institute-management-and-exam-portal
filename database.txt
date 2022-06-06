@@ -1,0 +1,38 @@
+admin:
+         id,  username,   password
+
+
+users::        
+        id   regNo   email    password   referralcode refferedby
+
+courses::
+        cid     ctype   cname       cdesc   fees    scholarship     installment     discount    
+        duration    cimage
+
+students::
+          sid   usrid    name    mother   dob     pob   aadhar    nationality  religion    caste   subcaste    bgroup  mtongue     distance   
+           mobile   courseid    
+
+employees::
+          sid   usrid    name   mother   dob     pob   aadhar    nationality  religion    caste   subcaste    bgroup  mtongue     distance   
+           mobile  courseid
+
+
+addresses::
+        id   address   city    dist    state   country    pincode
+
+bankdetails
+        id    acNo    acName      acIfsc  acBankname      acType   pancard 
+
+documents::
+        did     photo   passbook   aadhar   tc      marksheet   income
+
+trasactions::
+        tid     tdate   tstatus
+
+
+invoices::
+    iid     usrId     transaction    
+
+exam::
+    
